@@ -1,0 +1,148 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+img {
+  height: auto;
+  width: auto;
+}
+
+ul {
+  text-align: right;
+}
+
+h1 {
+  font-size: 20px;
+}
+div img{
+  height: 380px;
+  width: auto;
+  padding-top: 10px;
+}
+
+/*Sizing*/
+
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main {
+    background-color:#fff;
+}
+
+/*Header Section*/
+
+.header {
+  padding: 30px 0px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header li {
+  list-style: none;
+  display: inline-block;
+}
+
+.header li a {
+  color: #333;
+  margin:0;
+  border:0px;
+}
+
+/*Jumbotron Section*/
+
+.jumbotron {
+  background-color: #fff;
+  max-width: 1200px;
+  margin-left: 50px;
+}
+
+.jumbotron h2 {
+  font-size: 50px;
+  margin-bottom: 70px;
+}
+
+.jumbotron h2 span {
+  color:#ffc200;
+}
+
+.jumbotron p {
+  text-shadow: 0 0;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 0;
+}
+
+/*Banner Section*/
+.banner {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Expertise Section*/
+.cards {
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cl{
+  display: flex;
+  flex-direction: column;
+}
+.cal{
+  width: 100%;
+  height: auto;
+}
+.col{
+  border-radius: 10px;
+  width: 100%;
+  display: grid;
+  grid-auto-columns: auto auto auto;
+  margin: 10px 0px;
+}
+
+#expertise {
+  padding: 20px;
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+/*Footer Section*/
+.footer {
+  padding: 60px 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.footer p {
+  font-size:12px;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+.grid-container .grid-item {
+  background-color: #fff;
+}
